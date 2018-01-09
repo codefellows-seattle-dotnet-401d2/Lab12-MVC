@@ -16,4 +16,24 @@ namespace MVC.Controllers
             return View();
         }
     }
+
+    [HttpGet]
+
+    public
+
+    [HttpPost]
+
+    public IActionResult Index( string name, string price, string points)
+    {
+        return RedirectToAction("Results", new { name, price, points });
+    }
+
+    [HttpGet]
+
+    public IActionResult Results(string name, string price, string points)
+    {
+        ViewBag.Name = name;
+        List<Wine> wineList = Wine.FilterWineList(price, points);
+        return ViewComponent(wineList);
+    }
 }

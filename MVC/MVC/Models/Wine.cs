@@ -9,6 +9,26 @@ namespace MVC.Models
 {
     public class Wine
     {
+        public string ID { get; private set; }
+
+        public string Country { get; private set; }
+
+        public string Description { get; private set; }
+
+        public string Designation { get; private set; }
+
+        public string Points { get; private set; }
+
+        public string Price { get; private set; }
+
+        public string Region_1 { get; private set; }
+
+        public string Region_2 { get; private set; }
+
+        public string Variety { get; private set; }
+
+        public string Winery { get; private set; }
+
         public static List<Wine> GetWineList()
         {
             List<Wine> myWine = new List<Wine>();

@@ -1,0 +1,20 @@
+﻿@model List<MVC.Models.Wine>
+
+<p>
+    Hi @ViewBag.Name
+</p>
+
+@foreach (var wine in Model)
+{
+    <li>@wine.Description</li>
+
+    <li>@wine.Designation</li>
+
+    <li>@wine.Region_1</li>
+
+    <li>@wine.Region_2</li>
+
+    <li>@wine.Country</li>
+
+    <li>@wine.Winery</li>
+}
