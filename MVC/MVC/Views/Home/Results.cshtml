@@ -1,11 +1,16 @@
 ﻿@model List<MVC.Models.Wine>
 
 <p>
-    Hi @ViewBag.Name
+    Hi @ViewBag.Name <br /> 
+    Thank you for using our trusted Wine List to Search for your favorite wine choices. 
 </p>
+
+<h3>Here are your results</h3>
 
 @foreach (var wine in Model)
 {
+    
+
     <li>@wine.Description</li>
 
     <li>@wine.Designation</li>
