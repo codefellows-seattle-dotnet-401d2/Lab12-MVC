@@ -1,0 +1,11 @@
+C:\Users\pedra\Documents\codefellows\401\Lab12-MVC\WineWebApp\WineWebApp\bin\Debug\netcoreapp2.0\WineWebApp.deps.json
+C:\Users\pedra\Documents\codefellows\401\Lab12-MVC\WineWebApp\WineWebApp\bin\Debug\netcoreapp2.0\WineWebApp.runtimeconfig.json
+C:\Users\pedra\Documents\codefellows\401\Lab12-MVC\WineWebApp\WineWebApp\bin\Debug\netcoreapp2.0\WineWebApp.runtimeconfig.dev.json
+C:\Users\pedra\Documents\codefellows\401\Lab12-MVC\WineWebApp\WineWebApp\bin\Debug\netcoreapp2.0\WineWebApp.dll
+C:\Users\pedra\Documents\codefellows\401\Lab12-MVC\WineWebApp\WineWebApp\bin\Debug\netcoreapp2.0\WineWebApp.pdb
+C:\Users\pedra\Documents\codefellows\401\Lab12-MVC\WineWebApp\WineWebApp\obj\Debug\netcoreapp2.0\WineWebApp.csprojResolveAssemblyReference.cache
+C:\Users\pedra\Documents\codefellows\401\Lab12-MVC\WineWebApp\WineWebApp\obj\Debug\netcoreapp2.0\WineWebApp.csproj.CoreCompileInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab12-MVC\WineWebApp\WineWebApp\obj\Debug\netcoreapp2.0\WineWebApp.AssemblyInfoInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab12-MVC\WineWebApp\WineWebApp\obj\Debug\netcoreapp2.0\WineWebApp.AssemblyInfo.cs
+C:\Users\pedra\Documents\codefellows\401\Lab12-MVC\WineWebApp\WineWebApp\obj\Debug\netcoreapp2.0\WineWebApp.dll
+C:\Users\pedra\Documents\codefellows\401\Lab12-MVC\WineWebApp\WineWebApp\obj\Debug\netcoreapp2.0\WineWebApp.pdb

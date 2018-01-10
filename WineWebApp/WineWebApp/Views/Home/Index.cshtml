@@ -1,0 +1,25 @@
+﻿@* @model IEnumerable<WineWebApp.Models.Wine> *@
+@model WineWebApp.Models.Wine
+
+<h1>Testing MVC Web App</h1>
+@*
+    @foreach (var item in Model)
+    {
+        <h3>@item.TestMethod()</h3>
+
+        @foreach (var subitem in item.testList)
+        {
+            <p>@subitem</p>
+        }
+    }
+*@
+
+<h2>@ViewData["Name"]</h2>
+<h2>@ViewBag.Name</h2>
+@ViewBag.Wine?.Name
+
+<form method="post">
+    <label for="Name">Name</label>
+    <input name="Name" maxlength="10" /><br />
+    <button type="submit">Change Name</button>
+</form>
