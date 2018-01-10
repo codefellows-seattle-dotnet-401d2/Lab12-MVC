@@ -34,6 +34,9 @@ namespace MVC
                     template: "{controller=Home}/{action=Index}/{id?}/");
             });
 
+            // Required to use static files such as CSS and CSV
+            app.UseStaticFiles();
+
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");
