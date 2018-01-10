@@ -1,25 +1,11 @@
-﻿@* @model IEnumerable<WineWebApp.Models.Wine> *@
-@model WineWebApp.Models.Wine
-
-<h1>Testing MVC Web App</h1>
-@*
-    @foreach (var item in Model)
-    {
-        <h3>@item.TestMethod()</h3>
-
-        @foreach (var subitem in item.testList)
-        {
-            <p>@subitem</p>
-        }
-    }
-*@
-
-<h2>@ViewData["Name"]</h2>
-<h2>@ViewBag.Name</h2>
-@ViewBag.Wine?.Name
+﻿<h1>Wine Lookup Database</h1>
 
 <form method="post">
-    <label for="Name">Name</label>
+    <label for="Name">Your Name</label>
     <input name="Name" maxlength="10" /><br />
-    <button type="submit">Change Name</button>
+    <label for="Price">Max Price</label>
+    <input name="Price" maxlength="5" /><br />
+    <label for="Points">Max Points</label>
+    <input name="Points" maxlength="5" /><br />
+    <button type="submit">Search</button>
 </form>
