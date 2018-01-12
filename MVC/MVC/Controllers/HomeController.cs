@@ -25,7 +25,7 @@ namespace MVC.Controllers
 
         public IActionResult Index(string name, string price, string points)
         {
-            return RedirectToAction("Results", new { name, price, points });
+            return RedirectToAction("Results", new {name, price, points});
         }
 
         [HttpGet]
