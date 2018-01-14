@@ -1,14 +1,16 @@
-﻿<h2>Wine Results</h2>
+﻿<link href="~/style.css" rel="stylesheet" />
+
+<h2>Wine Results</h2>
 
 <h3>Here is your curated Wine list @ViewData["Name"]!</h3>
 
 @foreach (var x in Model)
 {
-    <p>Wine @x.ID</p>
-    <p>Price/Points: $@x.Price / @x.Points pts</p>
-    <p> Country: @x.Country - @x.Region_1 / @x.Region_2 </p>
-    <p>Winery: @x.Winery </p>
-    <p>Variety: @x.Variety </p>
-    <p>Desc: @x.Description - @x.Designation </p>
-    <p>-------------------</p>
+    <div class="wines">
+        <p>Wine @x.ID</p>
+        <p>Price/Points: $@x.Price / @x.Points pts</p>
+        <p> Country: @x.Country - @x.Region_1 / @x.Region_2 </p>
+        <p>Winery: @x.Winery | Variety: @x.Variety </p>
+        <p>Desc: @x.Description - @x.Designation </p>
+    </div>
 }

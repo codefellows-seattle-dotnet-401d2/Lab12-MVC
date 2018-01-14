@@ -15,7 +15,9 @@ namespace WineWebApp.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View();
+            List<Wine> wineList = Wine.GetWineList();
+            IEnumerable<Wine> WineList = wineList.Select(w => w);
+            return View(WineList.Skip(1));
         }
 
         [HttpPost]
