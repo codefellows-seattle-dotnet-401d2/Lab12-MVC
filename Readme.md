@@ -12,8 +12,8 @@ To get this application running you must be familiar with the MVC framework in .
 3. Filter results in the results view
 
 ### Example
-![Web Screenshot] url("WineList.png")
-![Web Screenshot] url("WineList2.png")
+![Web Screenshot](WineList.png)
+![Web Screenshot](WineList2.png)
 
 ### Architecture
 This application is created using ASP.NET Core 2.0 Console applicaitons. 
