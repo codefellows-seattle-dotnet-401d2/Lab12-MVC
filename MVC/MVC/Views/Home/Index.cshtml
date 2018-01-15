@@ -1,17 +1,35 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿<link href="~/StyleSheet.css" rel="stylesheet" />
 
+<header>
+    <h1>The Wine List</h1>
+</header>
+<body>
 
-<h4>Search Wines By:</h4>
-<form method="post">
-    <label for="Price">Price</label>
-    <input maxlength="10" name="Price" /><br />
+    <form id="userinput" method="post">
+        <label for="Name">Name</label>
+        <input name="Name" maxlength="10" placeholder="Enter First Name" />
 
-    <label for="Points">Points</label>
-    <input maxlength="10" name="Points" /><br />
+        <h3>Search</h3>
+        <label for="Price">Price: </label>
+        <input name="Price" maxlength="3" placeholder="$" />
 
-    <button type="submit">Search Wines</button>
-</form>
+        <label for="Points">Point Value: </label>
+        <input name="Points" maxlength="3" placeholder="1-100" required />
+
+        <button type="submit">Search</button>
+
+    </form>
+
+    @foreach (var x in Model)
+    {
+        <div class="wines">
+            <p><b>Wine</b> @x.ID</p>
+            <p><b>Price:</b> $@x.Price </p>
+            <p><b>Points:</b> @x.Points pts</p>
+            <p><b>Country:</b> @x.Country - @x.Region_1 / @x.Region_2 </p>
+            <p><b>Winery:</b> @x.Winery | Variety: @x.Variety </p>
+            <p><b>Description:</b> @x.Description - @x.Designation </p>
+        </div>
+    }
+</body>
+

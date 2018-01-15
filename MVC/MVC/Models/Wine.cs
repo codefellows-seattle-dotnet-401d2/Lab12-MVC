@@ -26,7 +26,7 @@ namespace MVC.Models
             List<Wine> myWine = new List<Wine>();
             string path = Environment.CurrentDirectory;
             //For testing, make sure the path is pointing to the root.
-            string newPath = Path.GetFullPath(Path.Combine(path, @"..\..\..\wine.csv"));
+            string newPath = Path.GetFullPath(Path.Combine(path, @"..\..\wine.csv"));
             using (StreamReader reader = new StreamReader(newPath))
             {
                 int counter = 0;
