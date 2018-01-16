@@ -1,0 +1,36 @@
+﻿body {
+    background: url(/img/background.jpg);
+}
+
+div.form {
+    display: block;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 45px;
+    
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+h1, h3 {
+    display: block;
+    text-align: center;
+}
+
+input{
+    border: 0.5px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    border-radius: 7px;
+}
