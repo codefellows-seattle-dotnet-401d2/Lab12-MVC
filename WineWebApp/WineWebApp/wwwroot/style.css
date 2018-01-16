@@ -1,0 +1,39 @@
+﻿body {
+    background-color: lightyellow;
+    color: darkred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#userinput {
+    width: 50%;
+    min-width: 10em;
+    margin: 0 auto;
+}
+
+#name {
+    text-align: right;
+}
+
+#userinput legend {
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+#userinput fieldset {
+    text-align: right;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#userinput button {
+    margin-top: 5px;
+}
+
+.wines {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}

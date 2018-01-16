@@ -1,0 +1,29 @@
+﻿<link href="~/style.css" rel="stylesheet" />
+
+<h1>Wine Lookup Database</h1>
+
+<form id="userinput" method="post">
+    <div id="name">
+        <label for="Name">Your Name</label>
+        <input name="Name" maxlength="10" /><br />
+    </div>
+    <fieldset>
+        <legend>Search Criteria</legend>
+        <label for="Price">Enter a dollar value between 1 and 100:</label>
+        <input name="Price" maxlength="3" required/><br />
+        <label for="Points">Enter a point value between 1 and 100: </label>
+        <input name="Points" maxlength="3" required/><br />
+        <button type="submit">Search</button>
+    </fieldset>
+</form>
+
+@foreach (var x in Model)
+{
+    <div class="wines">
+        <p>Wine @x.ID</p>
+        <p>Price/Points: $@x.Price / @x.Points pts</p>
+        <p> Country: @x.Country - @x.Region_1 / @x.Region_2 </p>
+        <p>Winery: @x.Winery | Variety: @x.Variety </p>
+        <p>Desc: @x.Description - @x.Designation </p>
+    </div>
+}
