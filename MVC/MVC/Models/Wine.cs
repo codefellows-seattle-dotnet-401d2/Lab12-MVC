@@ -9,16 +9,16 @@ namespace MVC.Models
 {
     public class Wine
     {
-        public string ID { get; private set; }
-        public string Country { get; private set; }
-        public string Description { get; private set; }
-        public string Designation { get; private set; }
-        public string Points { get; private set; }
-        public string Price { get; private set; }
-        public string Region_1 { get; private set; }
-        public string Region_2 { get; private set; }
-        public string Variety { get; private set; }
-        public string Winery { get; private set; }
+        public string ID { get;  set; }
+        public string Country { get; set; }
+        public string Description { get; set; }
+        public string Designation { get; set; }
+        public string Points { get; set; }
+        public string Price { get; set; }
+        public string Region_1 { get; set; }
+        public string Region_2 { get; set; }
+        public string Variety { get; set; }
+        public string Winery { get; set; }
 
 
         public static List<Wine> GetWineList()
@@ -62,6 +62,11 @@ namespace MVC.Models
             }
 
             return myWine;
+        }
+
+        public static string Test()
+        {
+            return "1";
         }
     }
 }
