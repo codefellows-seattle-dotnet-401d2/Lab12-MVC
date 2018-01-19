@@ -18,33 +18,30 @@ namespace DontWine.Models
         // GET: /<controller>/
         public IActionResult Index()
         {
-            List<Wine> WineList = Wine.GetWineList();
-            return View(WineList);
+            return View();
         }
 
         // I think this thing is useless. I don't have time to try without it though.
         [HttpPost]
         public IActionResult Index(int price, int points)
         {
-            string price_ = price.ToString();
-            string points_ = points.ToString();
-            return RedirectToAction("Results", new {price_, points_ });
+            return RedirectToAction("Results", new { price, points });
         }
 
         [HttpGet]
-        public IActionResult Results(string price, string points)
+        public IActionResult Results(Wine wine)
         {
-            List<Wine> Winelist = Wine.GetWineList();
+            List<Wine> wines = Wine.GetWineList();
+            if (wine.Price != "0")
+            {
+                wines = wines.Where(w => w.Price == wine.Price).ToList();
+            }
+            if (wine.Points != "0")
+            {
+                wines = wines.Where(w => w.Points == wine.Points).ToList();
+            }
 
-            if (price != "0")
-            {
-                Winelist = Winelist.Where(wine_ => wine_.Price == price).ToList();
-            }
-            if (points != "0")
-            {
-                Winelist = Winelist.Where(wine_ => wine_.Points == points).ToList();
-            }
-            return View(Winelist);
+            return View(wines);
         }
     }
 }
