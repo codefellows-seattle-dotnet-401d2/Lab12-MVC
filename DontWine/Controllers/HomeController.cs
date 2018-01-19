@@ -31,17 +31,17 @@ namespace DontWine.Models
         [HttpGet]
         public IActionResult Results(Wine wine)
         {
-            List<Wine> wines = Wine.GetWineList();
+            List<Wine> winelist = Wine.GetWineList();
             if (wine.Price != "0")
             {
-                wines = wines.Where(w => w.Price == wine.Price).ToList();
+                winelist = winelist.Where(w => w.Price == wine.Price).ToList();
             }
             if (wine.Points != "0")
             {
-                wines = wines.Where(w => w.Points == wine.Points).ToList();
+                winelist = winelist.Where(w => w.Points == wine.Points).ToList();
             }
 
-            return View(wines);
+            return View(winelist);
         }
     }
 }
