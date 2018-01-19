@@ -10,16 +10,16 @@ namespace DontWine.Models
     public class Wine
     {
 
-        public string ID { get; internal set; }
-        public string Country { get; internal set; }
-        public string Description { get; internal set; }
-        public string Designation { get; internal set; }
-        public string Points { get; internal set; }
-        public string Price { get; internal set; }
-        public string Region_1 { get; internal set; }
-        public string Region_2 { get; internal set; }
-        public string Variety { get; internal set; }
-        public string Winery { get; internal set; }
+        public string ID { get; set; }
+        public string Country { get; set; }
+        public string Description { get; set; }
+        public string Designation { get; set; }
+        public string Points { get; set; }
+        public string Price { get; set; }
+        public string Region_1 { get; set; }
+        public string Region_2 { get; set; }
+        public string Variety { get; set; }
+        public string Winery { get; set; }
         public string Province { get; private set; }
 
         //4213,
