@@ -1,0 +1,37 @@
+﻿@using DontWine.Models;
+@model List<Wine>;
+
+<link href="~/Styles.css" rel="stylesheet" />
+
+<h2>Wines</h2>
+
+@if (Model.Count > 0)
+{
+    <ul id:"content">
+        @foreach (Wine wine in Model)
+        {
+            <li>
+                <h4>@wine.Designation</h4>
+                <h5>Variety: @wine.Variety</h5>
+                @if (wine.Region_1 != "")
+                {
+                    @if (wine.Region_2 != "")
+                    {
+                        <p>Region: @wine.Region_2, @wine.Region_1</p>
+                    }
+                    else
+                    {
+                        <p>Region: @wine.Region_1</p>
+                    }
+                }
+                <p>Produced By: @wine.Winery</p>
+                <p>Cost: @wine.Price USD &nbsp;&nbsp;&nbsp;&nbsp; Points:  @wine.Points</p>
+                <br />
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No wines match your query!</p>
+}

@@ -1,0 +1,14 @@
+﻿@using DontWine.Models;
+@model List<Wine>;
+
+<link href="~/Styles.css" rel="stylesheet" />
+
+<h2>Wines</h2>
+
+<form method="post">
+    <label for="price">Filter by Price (USD)</label>
+    <input type="number" name="price" />
+    <label for="points">Filter by Points</label>
+    <input type="number" name="points" />
+    <button type="submit">Filter</button>
+</form>

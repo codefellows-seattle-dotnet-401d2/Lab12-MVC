@@ -1,0 +1,16 @@
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\bin\Debug\netcoreapp2.0\WineTest.deps.json
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\bin\Debug\netcoreapp2.0\WineTest.runtimeconfig.json
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\bin\Debug\netcoreapp2.0\WineTest.runtimeconfig.dev.json
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\bin\Debug\netcoreapp2.0\WineTest.dll
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\bin\Debug\netcoreapp2.0\WineTest.pdb
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\bin\Debug\netcoreapp2.0\DontWine.dll
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\bin\Debug\netcoreapp2.0\DontWine.pdb
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\obj\Debug\netcoreapp2.0\WineTest.csprojResolveAssemblyReference.cache
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\obj\Debug\netcoreapp2.0\WineTest.csproj.CoreCompileInputs.cache
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\obj\Debug\netcoreapp2.0\WineTest.AssemblyInfoInputs.cache
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\obj\Debug\netcoreapp2.0\WineTest.AssemblyInfo.cs
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\obj\Debug\netcoreapp2.0\WineTest.dll
+M:\OneDrive\Documents\Projects\Lab12-MVC\WineTest\obj\Debug\netcoreapp2.0\WineTest.pdb
