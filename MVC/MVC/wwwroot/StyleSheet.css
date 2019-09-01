@@ -1,0 +1,40 @@
+﻿body {
+    font-family: Ariel;
+    margin: 0 auto;
+    width: 960px;
+}
+
+header {
+    height: 10%;
+    background-color: maroon;
+    color: antiquewhite;
+}
+
+h1 {
+    margin-left: 3%;
+    padding-top: 1%;
+}
+
+h3 {
+    margin-left: 2%;
+}
+
+label {
+    margin-left: 2%;
+}
+
+#userinput {
+    margin-top: 2%;
+}
+
+.wines {
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    background-color: lightgray;
+    
+}
+
+
+
